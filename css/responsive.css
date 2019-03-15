@@ -1,0 +1,129 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .counter-wrap h3 span {
+        font-size: 45px;
+        line-height: 45px;
+    }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    h2 {
+        font-size: 35px;
+    }
+    /* about */
+    .about-title span,.about-title h3 {
+        font-size: 15px;
+    }
+    .counter-wrap h3 span {
+        font-size: 30px;
+        margin-left: 22px;
+        line-height: 32px;
+    }
+    .counter-wrap h3 {
+        font-size: 12px;
+    }
+    .portfolio-menu button {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+    /* timeline */
+    .timeline-text {
+        width: 240px;
+        height: 196px;
+        left: -247px;
+        margin-top: -98px;
+    }
+    .timeline-wrap:nth-child(2n+2) .timeline-text {
+        right: -247px;
+        left: auto;
+    }
+    /* btradcam */
+    .breadcam-wrap h3 {
+        font-size: 25px;
+    }
+    .link-page a {
+        font-size: 15px;
+    }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    p {
+        font-size: 12px;
+    }
+    /* btradcam */
+    .breadcam-wrap h3 {
+        font-size: 18px;
+    }
+    .profile-heading h2 {
+        font-size: 20px;
+        margin: 5px 0;
+    }
+    .profile-heading h3,.profile-heading h3 span,.about-title h3,.link-page a,.work-title h4 {
+        font-size: 14px;
+    }
+    .counter-wrap h3 {
+        line-height: 35px;
+    }
+    .counter-wrap h3 span {
+        font-size: 40px;
+        margin-left: 0;
+        line-height: 30px;
+    }
+    .about-img::after {
+        left: -10px;
+        top: -10px;
+    }
+    /* portfolio */
+    .portfolio-menu button {
+        padding: 8px 5px;
+        font-size: 12px;
+    }
+    .portfolio-menu {
+        padding: 5px;
+    }
+    .counter-area {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .social-link {
+        text-align: center;
+    }
+    .about-text {
+        text-align: center;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .about-img {
+        margin-bottom: 30px;
+    }
+    .mobile.timeline-textt h4 {
+        font-size: 15px;
+    }
+    .profile-heading h2 {
+        font-size: 18px;
+    }
+    .profile-heading h3,.profile-heading span {
+        font-size: 16px;
+    }
+    #scrollUp {
+        font-size: 20px;
+        height: 45px;
+        width: 30px;
+        line-height: 44px;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+
+}
