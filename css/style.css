@@ -329,7 +329,7 @@ a.theme-btn:hover:before,button.theme-btn:hover:before{
 
 .preloader {
 	position: fixed;
-	z-index: 999999;
+	z-index: 99999999999999999;
 	height: 100%;
 	width: 100%;
 	background:#FFC815;
