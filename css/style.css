@@ -1156,28 +1156,15 @@ button.theme-btn:hover{
  color: #eee;
  text-transform: uppercase;
  margin: 0;
- z-index: 99;
- position: relative;
- display: inline-block;
 }
 .footer-area p span {
 	font-weight: 600;
 }
 
-.footer-area.pt-100.pb-100 {
+.footer-area {
   background: #191919;
   position: relative;
   z-index: 1;
-}
-.footer-area p:before {
-  position: absolute;
-  content: "";
-  width: 30px;
-  height: 30px;
-  border-top: 3px solid #FFC815;
-  border-left: 3px solid #FFC815;
-  top: -5px;
-  left: -25px;
 }
 /* default css creating */
 
