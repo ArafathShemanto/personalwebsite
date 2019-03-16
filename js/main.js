@@ -162,7 +162,6 @@ $('.portfolio-menu').on( 'click', 'button', function() {
 	});
 
 
-
 	// disable inspect
 	document.onkeydown = function(e) {
 		if(event.keyCode == 123) {
