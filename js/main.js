@@ -83,8 +83,7 @@ $('.service-active').owlCarousel({
 	dots:false,
     responsive:{
         0:{
-						items:1,
-						nav:false
+	items:1
         },
         767:{
             items:3
