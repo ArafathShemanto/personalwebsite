@@ -20,7 +20,7 @@
 10. footer 
 */
 
-/* ............ */
+
 
 /* 1. Theme default css */
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800|Raleway:300,400,500,600,700,800');
@@ -180,7 +180,7 @@ p {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 10px;
 }
 
 /* Track */
@@ -192,7 +192,7 @@ p {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background:  #FFC815;; 
-  border-radius: 10px;
+  border-radius:0px;
 }
 
 /* themebtn */
@@ -362,9 +362,6 @@ a.theme-btn:hover:before,button.theme-btn:hover:before{
 	background-size:cover;
 	background-position: center center;
 	background-attachment: fixed;
-}
-.footer-bg-1{
-	background-image: url(../img/footer.jpg);
 }
 .service-bg-1{
 	background-image: url(../img/service/1.jpg);
@@ -1154,12 +1151,6 @@ button.theme-btn:hover{
 }
 
 /* footer css */
-.footer-area{
-	background-size: contain;
-	background-position: center  center;
-	position: relative;
-	z-index: -111;
-}
 .footer-area p{
  font-size: 14px;
  color: #eee;
@@ -1167,41 +1158,27 @@ button.theme-btn:hover{
  margin: 0;
  z-index: 99;
  position: relative;
+ display: inline-block;
 }
 .footer-area p span {
 	font-weight: 600;
 }
-footer {
-	position: fixed;
-	z-index: -111;
-	width: 100%;
-	height: 220px;
-	bottom: 0;
-}
 
-.footer-area{
-	position: relative;
-	z-index: 1;
+.footer-area.pt-100.pb-100 {
+  background: #191919;
+  position: relative;
+  z-index: 1;
 }
-.contact-area {
-	position: relative;
-	z-index: 90;
-	background: #fff;
-	margin-bottom: 220px;
+.footer-area p:before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-top: 3px solid #FFC815;
+  border-left: 3px solid #FFC815;
+  top: -5px;
+  left: -25px;
 }
- .footer-area:before {
-	content: "";
-	background: #000;
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	opacity: .9;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-	z-index: -1;
-}
-
 /* default css creating */
 
 .white-bg-pos{
@@ -1434,7 +1411,6 @@ a.service-link i {
 	  position: relative;
 	  z-index: 999;
 	  background: #f7f7f7;
-	  margin-bottom: 250px;
   }
 span.typed-cursor {
 	display: none;
